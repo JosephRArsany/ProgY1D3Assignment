@@ -1,4 +1,4 @@
 Programming Coursework Planning:
 
-Bubble chart
-Popular words in songs based on genre
+Bubble chart: https://observablehq.com/@d3/bubble-chart
+Popular words in songs based on genre: MusixMatch
