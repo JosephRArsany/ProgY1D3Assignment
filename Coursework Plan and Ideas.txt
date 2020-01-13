@@ -1,0 +1,4 @@
+Programming Coursework Planning:
+
+Bubble chart
+Popular words in songs based on genre
