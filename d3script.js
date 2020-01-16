@@ -17,7 +17,7 @@ function createChart(datavals, width, height, scale, forceStrength, padding){
 		.data(datavals)
 		.enter().append("circle")
 		.attr("class", "datapoint")
-		.attr("r", function(d){return radiusScale(d.values);})
+		.attr("r", function(d){return radiusScale(d.value);})
 		.attr("fill", "lightblue")
 	
 	simulation.nodes(datavals).on("tick", tickfunction)
