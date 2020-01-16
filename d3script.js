@@ -11,7 +11,7 @@ function createChart(datavals, width, height, scale, forceStrength, padding){
 	var simulation = d3.forceSimulation()
 		.force("xforce", d3.forceX(width/2).strength(forceStrength))
 		.force("yforce", d3.forceY(height/2).strength(forceStrength))
-		.force("collide", d3.forceCollide(function(d) {return radiusScale(d.value) + padding;})
+		.force("collide", d3.forceCollide(function(d) {return radiusScale(d.value) + padding;}))
 									     
 	var circles = svg.selectAll(".datapoint")
 		.data(datavals)
