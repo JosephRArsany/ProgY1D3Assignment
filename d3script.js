@@ -30,4 +30,6 @@ function createChart(datavals, width, height, scale, forceStrength, padding){
 	}
 }
 
-createChart([{name : "it1", value : "60"},{name : "it2", value : "40"},{name : "it3", value : "70"}], 500, 500, [1, 300, 10, 80], 0.05, 1)
+const data = [{name : "it1", value : "60"},{name : "it2", value : "40"},{name : "it3", value : "70"}] 
+
+createChart(data, 500, 500, [1, 300, 10, 80], 0.05, 1)
