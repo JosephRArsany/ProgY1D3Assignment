@@ -19,6 +19,7 @@ function createChart(datavals, width, height, scale, forceStrength, padding){
 		.attr("class", "datapoint")
 		.attr("r", function(d){return radiusScale(d.value);})
 		.attr("fill", "lightblue")
+		.on("click", function(d){return console.log(d)})
 	
 	simulation.nodes(datavals).on("tick", tickfunction)
 	
